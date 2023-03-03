@@ -5,3 +5,12 @@ const updated=arr.map(v=>{
 })
 
 console.log(updated);
+
+
+const notArr = {
+    length: 3,
+    0:1,
+    1:2,
+    2:3
+  };
+  console.log(Array.prototype.map.call(notArr, (x) => x ** 2));
