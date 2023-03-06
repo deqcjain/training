@@ -1,7 +1,7 @@
-const arr= [1,2,,3,4]
+const arr = [1, 2, , 3, 4, null]
 
-const it=arr.entries()
+const it = arr.entries()
 
-for (const [key,value] of it) {
+for (const [key, value] of it) {
     console.log(key, value);
 }
